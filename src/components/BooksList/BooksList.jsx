@@ -21,7 +21,7 @@ const BooksList = () => {
 			{booksList?.length ? (
 				booksList.map((book) => <Book key={uuidv4()} book={book} />)
 			) : (
-				<p>There are no books to dish6lay</p>
+				<p>There are no books to display</p>
 			)}
 		</div>
 	);
