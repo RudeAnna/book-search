@@ -9,7 +9,7 @@ export const fetchBooks = (book) => {
 	return (dispatch) => {
 		const reqOptions = {
 			method: "GET",
-			url: `http://openlibrary.org/search.json?q=${book}`,
+			url: `https://openlibrary.org/search.json?q=${book}`,
 		};
 		dispatch(fetchBooksRequest());
 		return axios(reqOptions)
