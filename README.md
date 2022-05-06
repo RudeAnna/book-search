@@ -1,6 +1,6 @@
 # Books Search App
 
-This project was bootstrapped with https://github.com/RudeAnna/books-serch.git
+This project was bootstrapped with https://github.com/RudeAnna/book-search.git
 
 ### How long did you spend on the coding assignment?
 
