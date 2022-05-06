@@ -1,0 +1,19 @@
+.Header {
+	width: 90%;
+	margin: auto;
+	border-bottom: 1px solid rgba(110, 110, 110, 1);
+
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		&__logo {
+			width: 30%;
+			height: auto;
+			img {
+				width: 100%;
+			}
+		}
+	}
+}

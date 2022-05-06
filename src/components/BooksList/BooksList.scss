@@ -1,0 +1,11 @@
+.BooksList {
+	padding-top: 25px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+
+	p {
+		padding-top: 0;
+	}
+}
